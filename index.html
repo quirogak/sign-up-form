@@ -40,7 +40,7 @@
                  <div class="first-column">
                     <li>
                         <label for="name">FIRST NAME</label>
-                        <input type="text" id="name" name="user_name">
+                        <input type="text" id="name" name="user_name" pattern="[A-Za-z]{1,32}"> 
                     </li>
                     <li>
                         <label for="email">EMAIL</label>
@@ -58,11 +58,11 @@
                 <div class="second-column">
                     <li>
                         <label for="last-name">LAST NAME</label>
-                        <input type="text" id="last-name" name="user_last_name">
+                        <input type="text" id="last-name" name="user_last_name" pattern="[A-Za-z]{1,32}">
                     </li>
                     <li>
                         <label for="phohe-number">PHONE NUMBER</label>
-                        <input type="tel" id="phone-number" name="user_phone">
+                        <input type="tel" id="phone-number" name="user_phone" pattern="[0-9]{10}">
                     </li>
                     <li>
                         <label for="pass-confirm">CONFIRM PASSWORD</label>
