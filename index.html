@@ -23,7 +23,7 @@
             You know  you need something <br>like this in your life to help you realize your deepest dreams.
             <br>Sign up <em> now </em> to get started</p>
             <p>
-                You <em> know  </em> you want to.
+                You <em> know </em> you want to.
             </p>
         </div>
 
@@ -45,7 +45,8 @@
                     </li>
                     <li>
                         <label for="password">PASSWORD</label>
-                        <input type="password" id="password" name="user_pass">
+                        <input type="password" id="password" name="user_pass" onkeyup="samePass()">
+                        <label id="dont-match"></label>
                     </li>
                 </div>
                 </ul>
@@ -58,19 +59,22 @@
                     </li>
                     <li>
                         <label for="phohe-number">PHONE NUMBER</label>
-                        <input type="number" id="phone-numbr" name="user_phone">
+                        <input type="tel" id="phone-number" name="user_phone">
                     </li>
                     <li>
                         <label for="pass-confirm">CONFIRM PASSWORD</label>
-                        <input type="password" id="pass-confirm" name="confirm_pass">
+                        <input type="password" id="pass-confirm" name="confirm_pass" onkeyup="samePass()">
                     </li>
                 </div>
                 </ul>
               </form>
         </div>
-            <div class="bottom-content">
+
+        <div class="bottom-content">
             <button type="submit">Create Account</button>
+
             <span class="bottom-p">Already have an account? <a class="log-in" href="">Log in</a> </span> 
+
             </div>
     </div>
 </body>
