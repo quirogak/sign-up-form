@@ -62,6 +62,9 @@ color: rgb(29, 29, 29);
 
 }
 
+
+
+
 .middle-content {
     box-shadow: -5px 4px 4px  rgb(219, 219, 219);
     background-color: rgb(252, 252, 252);
@@ -96,7 +99,28 @@ li{
     display: flex;
     flex-direction: column;
     margin-top: 20px;
+    font-size: 0.85rem;
+    letter-spacing: 1.5px;
+    color: rgb(78, 78, 78);
+    gap: 1px;
 }
+
+input {
+    outline: none;
+
+    border: 1px solid #E5E7EB;
+    border-radius: 5px;
+    height: 1.7rem;
+    width: 18rem;
+
+}
+
+input:focus {
+    border-color: rgb(10, 87, 253);
+}
+
+
+
 
 .bottom-content {
     display: flex;
@@ -127,4 +151,10 @@ button {
 
 a.log-in {
     font-weight: bold;
+}
+
+label#dont-match {
+    color: red;
+    font-size: 0.8rem;
+    font-weight: normal;
 }
