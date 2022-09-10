@@ -145,6 +145,10 @@ input:focus {
     box-shadow: 3px 3px 3px  rgb(219, 219, 219);
 }
 
+input:invalid {
+    border-color:red;
+}
+
 label#dont-match {
     color: red;
     font-size: 0.8rem;
